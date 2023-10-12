@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "homepage": "https://chetanrajput00000.github.io/CongiHome",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.0"
+  },
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
